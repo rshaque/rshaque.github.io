@@ -1,7 +1,7 @@
 html {
 	background-color: #2E2E2E;
 	font-family: 'tahoma', sans-serif;
-	font-size: 85%;
+	font-size: 17px;
 }
 
 #top {
@@ -15,9 +15,10 @@ html {
 }
 
 #line {
-	border-top-style: solid;
-	border-top-width: 1px;
-	border-top-color: white;
+	background-color: #2E2E2E;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: white;
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -38,17 +39,18 @@ li {
 	display: inline;
 }
 
-a {
+#navbar {
 	display: inline-block;
 	padding: 10px;
+	font-weight: normal;
 }
 
-a:link, a:visited, a:hover, a:active {
+#navbar:link, #navbar:visited, #navbar:hover, #navbar:active {
 	color: white;
 	text-decoration: none;
 } 
 
-a:hover {
+#navbar:hover {
 	text-decoration: none;
 	background-color: #848484;
 	border-radius: 5px;
@@ -70,6 +72,19 @@ div {
 	padding: 1%;
 	background-color: white;
 	top: 12%;
+}
+
+#header {
+	font-size: 20px;
+}
+
+#images {
+	text-align: center;
+}
+
+a {
+	color: #2E2E2E;
+	font-weight: bold;
 }
 
 footer {
